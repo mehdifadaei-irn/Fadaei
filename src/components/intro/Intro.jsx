@@ -10,8 +10,8 @@ function Intro(props) {
         init(textRef.current, {
             showCursor:true,
             backDelay:1500,
-            backSpeed: 60,
-            strings: ["`Developer`", "`Designer`", "`computerEngineer`"],
+            backSpeed: 40,
+            strings: ["`NextJs`", "`Material-UI`", "`Redux-Toolkit`"],
         })
     },[])
 
@@ -24,15 +24,12 @@ function Intro(props) {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
-                    <h1>Safak Kocaoglu</h1>
+                    <h3>Hi There, I'm</h3>
+                    <h2>Mehdi Fadaei</h2>
                     <h3>
-                        Freelance <span ref={textRef}/>
+                        work with <span ref={textRef}/>
                     </h3>
                 </div>
-                <a href="#portfolio">
-                    <img src="assets/down.png" alt="" />
-                </a>
             </div>
         </div>
     );
